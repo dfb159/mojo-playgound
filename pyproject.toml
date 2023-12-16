@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mojo-playground"
+version = "0.1.0"
+description = "A playgound for mojo to learn and explore the capabilities of this new language."
+authors = ["Jonathan Sigrist"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mojo_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+uncertainties = "^3.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
